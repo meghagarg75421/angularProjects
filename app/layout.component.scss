@@ -1,0 +1,53 @@
+.cardBox{
+    display: flex;
+    flex-direction: column;
+    align-content: stretch;
+    border: 1px solid black;
+    border-radius: 8px;
+    box-direction: row;
+   
+    box-shadow: black;
+    min-height: 100px;
+overflow: hidden;
+box-shadow: 5px 10px #888888;
+    
+}
+.layout{
+    display: flex;
+    
+    background-color : white ;
+    margin-top : 100px;
+   min-height : 200px;
+   justify-content : center;
+   
+    
+}
+.buttons{
+display: flex;
+flex-direction: row;
+background-color : black;
+height: 100px;
+}
+.buttonClass{
+   height: 100%;
+    width : 100%;
+background-color: aqua;    
+
+
+}
+.inputBox{
+   height: 40%;
+   width : 100%; 
+   font-family: 'Courier New', Courier, monospace;
+   font-size: 20px;
+  justify-content: center;
+  background-color: white;
+
+   
+}
+.secondbox{
+width : 100%;
+height : 100%;
+align-content: stretch;
+
+}

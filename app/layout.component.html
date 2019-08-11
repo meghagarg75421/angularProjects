@@ -1,0 +1,15 @@
+<div class="layout">
+
+    <div class="cardBox">
+        <input type="text" class="inputBox" id = "demo" [(ngModel)]= "boxvalue" [disabled] = true>
+        
+        <div class="buttons"><button class="buttonClass"  (click) = "valuePass(9)">9</button><button class="buttonClass" (click) = "valuePass(8)">8</button><button class="buttonClass" (click) = "valuePass(7)">7</button><button class="buttonClass" (click) = "add()">+</button></div>
+        <div class="buttons"><button class="buttonClass" (click) = "valuePass(6)">6</button><button class="buttonClass" (click) = "valuePass(5)">5</button><button class="buttonClass" (click) = "valuePass(4)">4</button><button class="buttonClass"  (click) = "subtract()">-</button></div>
+        <div class="buttons"><button class="buttonClass" (click) = "valuePass(3)">3</button><button class="buttonClass" (click) = "valuePass(2)">2</button><button class="buttonClass" (click) = "valuePass(1)">1</button><button class="buttonClass" (click) = "multiply()">*</button></div>
+        <div class = "buttons"><button class="buttonClass" (click) = "delete()">DEL</button><button class="buttonClass" (click)= "valuePass(0)">0</button><button class="buttonClass" (click) = "valuePass('.')">.</button><button class="buttonClass" (click) = "divide()">/</button><button class="buttonClass" (click) = "equate()">=</button></div>
+    
+    </div>
+   
+   
+    <!-- <button class="buttonClass" (click) = "clear()">C</button> -->
+</div>
